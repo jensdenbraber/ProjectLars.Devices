@@ -60,5 +60,3 @@ jobs:
       # in the build matrix.
       - name: Compile WaterTankLevels Sketch
         run: arduino-cli compile --fqbn ${{ matrix.fqbn }} ./EmbeddedDevices/WaterTankLevels/WaterTankLevels.ino
-      - name: Compile WaterTankLevelsOld Sketch
-        run: arduino-cli compile --fqbn ${{ matrix.fqbn }} ./EmbeddedDevices/WaterTankLevelsOld/WaterTankLevelsOld.ino
